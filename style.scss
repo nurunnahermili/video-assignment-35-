@@ -1,0 +1,460 @@
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+// carousel
+#carouselExampleCaptions{
+    .carousel-indicators{
+       li{
+        width: 20px;
+        height: 2px; 
+        background: #0b0ea7;
+        color: #ddd; 
+        border-radius: 50%;
+        
+
+          
+      }
+
+    }
+  .carousel-inner{
+      .carousel-item{
+          img{
+              height: 100vh;
+
+          }
+        
+          .carousel-caption{
+              padding-bottom: 230px;
+              h5{
+                  font-size: 60px;
+                  color: #071696;
+                  font-weight: bold;
+
+              }
+              p{
+                font-size: 25px;
+                color: #380963;
+                font-weight: bold;
+
+              }
+
+          }
+        
+        }
+    }
+
+  .banner-icon{
+      background: #e83b3e;
+      color: #440649;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      font-size: 40px;
+      line-height: 50px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+//  apply-now-section
+
+.apply-now-section{
+    .apply-now-left-text{
+        padding: 0px 0px;
+       
+        .step-timeline{
+            ul{
+                position: relative;
+                padding-left: 60px;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 22px;
+                    left: 26px;
+                    background: #e83b3e;
+                    width: 1px;
+                    height: calc(100% - 100px);
+
+                }
+                list-style: none;
+                li{
+                    color: #606060;
+                    margin-bottom: 20px;
+                    position: relative;
+                    &::before{
+                        content: attr(data-counter);
+                        position: absolute;
+                        top:0;
+                        left:-53px;
+                        height: 40px;
+                        width: 40px;
+                        background: #f9fafb;
+                        border: 1px solid #e83b3e;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 50%;
+
+
+
+
+                    }
+                    strong{
+                        font-size: 17px;
+                        display: block;
+                        margin-bottom: 10px;
+
+                    }
+                    p{
+                        font-size: 14px;
+
+                    }
+                }
+            }
+            
+        
+        }
+    
+        a{
+            padding: 10px 20px;
+            display: inline-block;
+            background: #e83b3e;
+            color: #fff;
+            text-decoration: none;
+            width: 130px;
+            text-align: center;
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+          
+
+            &:hover::after{
+              width: 100%;
+            }
+            &::after{
+              content: "";
+              width: 0;
+              height: 100%;
+              display: inline-block;
+              border-radius: 5px;
+              background: #111;
+              position: absolute;
+              top: 0;
+              left: 0;
+              transition:all .3s ease-in-out;
+              z-index: -1;
+            }
+        }
+    
+    
+    
+    }
+  .calculation-rate-right{
+      background: #fdebeb;
+      padding: 30px 80px;
+     
+   
+      .calculation-text{
+          h6{
+              color: #606060;
+
+          }
+          h3{
+            
+
+          }
+      }
+      .calculate-form{
+          input{
+              
+          }
+       
+            a{
+                padding: 10px 20px;
+                display: inline-block;
+                background: #e83b3e;
+                color: #fff;
+                text-decoration: none;
+                width: 130px;
+                text-align: center;
+                border-radius: 5px;
+                position: relative;
+                z-index: 1;
+    
+                &:hover::after{
+                  width: 100%;
+                }
+                &::after{
+                  content: "";
+                  width: 0;
+                  height: 100%;
+                  display: inline-block;
+                  border-radius: 5px;
+                  background: #111;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  transition:all .3s ease-in-out;
+                  z-index: -1;
+                }
+            }
+        }
+            
+      
+    
+    
+    }
+    
+}
+    
+//call-to-action    
+    
+    
+    .call-to-action{
+        .call-to-action-bg{
+            background: #e83b3e;
+            color: #fff;
+            padding: 60px;
+            padding-bottom: 40px;
+            border-radius: 5px;
+           .call-to-action-text{
+                h2{
+                    font-size: 35px;
+                    font-weight: 400;
+                    border-right: 1px solid #ddd;
+
+                }
+            }
+          .call-to-action-phone{
+              display: flex;
+              margin-top: 15px;
+              span{
+                  width: 60px;
+                  height: 60px;
+                  background: #fff;
+                  color: #e83b3e;
+                  border-radius: 50%;
+                  display: inline-block;
+                  line-height: 60px;
+                  text-align: center;
+                  font-size: 40px;
+                  margin-right: 20px;
+
+ 
+               }
+               a{
+                   display: inline-block;
+                   font-size: 35px;
+                   color: #fff;
+
+
+               }
+
+            }
+        }
+
+    } 
+
+
+
+
+    
+// our-company-value
+
+    .our-company-value {
+        .our-company-value-text{
+            h2{
+                font-weight: bold;
+
+            }
+            .value-item{
+                margin-bottom: 10px;
+                .value-icon{
+                    color: #e83b3e;
+                    font-size: 40px;
+                    margin-right: 20px;
+
+                }
+                .under-text{
+                    h4{
+                        font-weight: bold;
+
+                    }
+                    p{
+
+                    }
+                }
+            } 
+        
+        }
+    
+      .our-company-value-pic{
+          width: 550px;
+          height: 450px;
+         
+          img{
+              width: 100%;
+              display: inline-block;
+              height: 100%;
+             
+               
+            }
+
+          
+        }
+      
+    
+    }
+
+    // animation
+
+    .animation-pic{
+       .animation{
+        position: relative;
+           .image{
+               width: 100%;
+               height: 100%;
+               
+           
+           }
+           .blank{
+            position: absolute; 
+            top: 0;
+            left: 0;  
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.8);
+            padding-top: 350px;
+            animation-name: mili;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+
+            @keyframes mili{
+                0%,30%{
+                    background: rgba(112, 5, 5, 0.8);
+
+                }
+                50%{
+                    background: rgba(54, 30, 161, 0.8);
+
+                }
+                
+            }
+
+           }
+        }
+    }
+
+
+    //pogress-bar
+    
+    .pogress-bar{
+        
+        
+        .pogress-bar-item{
+            background-color: #ddd;
+          
+            
+            ul{
+                list-style: none;
+                
+
+                li{
+                    margin: 40px 0;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    position: relative;
+                    
+                    &.Html::after{
+                        animation-name: fardin;
+                        @keyframes fardin{
+                            to{
+                                width: 50%;
+                            }
+                            
+                        }
+                    }
+                    &.Css::after{
+                        animation-name: far;
+                        @keyframes far{
+                            to{
+                                width: 80%;
+                            }
+                            
+                        }
+                    }
+                    &.Java::after{
+                        animation-name: farhan;
+                        @keyframes farhan{
+                            to{
+                                width: 30%;
+                            }
+                            
+                        }
+                    }
+                    &.Bootsrap::after{
+                        animation-name: farha;
+                        @keyframes farha{
+                            to{
+                                width: 60%;
+                            }
+                            
+                        }
+                    }
+                    &.Php::after{
+                        animation-name: farh;
+                        @keyframes farh{
+                            to{
+                                width: 40%;
+                            }
+                            
+                        }
+                    }
+                    
+                   
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        width: 900px;
+                        height: 30px;
+                        background: rgb(233, 117, 82);
+                        top: calc(100% + 5px);
+                        border-radius: 1000px;
+                       
+
+                    }
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        width: 0px;
+                        height: 30px;
+                        background: rgb(107, 41, 161);
+                        top: calc(100% + 5px);
+                        left: 0;
+                        border-radius: 1000px;
+                        animation-duration: 3s;
+                        animation-timing-function: linear;
+                        animation-iteration-count: 2;
+                        animation-fill-mode: forwards;
+                        
+
+
+                       
+
+                    }
+
+                }
+            }
+
+        }
+    }

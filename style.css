@@ -1,0 +1,408 @@
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+#carouselExampleCaptions .carousel-indicators li {
+  width: 20px;
+  height: 2px;
+  background: #0b0ea7;
+  color: #ddd;
+  border-radius: 50%;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item img {
+  height: 100vh;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  padding-bottom: 230px;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 60px;
+  color: #071696;
+  font-weight: bold;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 25px;
+  color: #380963;
+  font-weight: bold;
+}
+
+#carouselExampleCaptions .banner-icon {
+  background: #e83b3e;
+  color: #440649;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.apply-now-section .apply-now-left-text {
+  padding: 0px 0px;
+}
+
+.apply-now-section .apply-now-left-text .step-timeline ul {
+  position: relative;
+  padding-left: 60px;
+  list-style: none;
+}
+
+.apply-now-section .apply-now-left-text .step-timeline ul::before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  background: #e83b3e;
+  width: 1px;
+  height: calc(100% - 100px);
+}
+
+.apply-now-section .apply-now-left-text .step-timeline ul li {
+  color: #606060;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.apply-now-section .apply-now-left-text .step-timeline ul li::before {
+  content: attr(data-counter);
+  position: absolute;
+  top: 0;
+  left: -53px;
+  height: 40px;
+  width: 40px;
+  background: #f9fafb;
+  border: 1px solid #e83b3e;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.apply-now-section .apply-now-left-text .step-timeline ul li strong {
+  font-size: 17px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.apply-now-section .apply-now-left-text .step-timeline ul li p {
+  font-size: 14px;
+}
+
+.apply-now-section .apply-now-left-text a {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #e83b3e;
+  color: #fff;
+  text-decoration: none;
+  width: 130px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.apply-now-section .apply-now-left-text a:hover::after {
+  width: 100%;
+}
+
+.apply-now-section .apply-now-left-text a::after {
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  background: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  z-index: -1;
+}
+
+.apply-now-section .calculation-rate-right {
+  background: #fdebeb;
+  padding: 30px 80px;
+}
+
+.apply-now-section .calculation-rate-right .calculation-text h6 {
+  color: #606060;
+}
+
+.apply-now-section .calculation-rate-right .calculate-form a {
+  padding: 10px 20px;
+  display: inline-block;
+  background: #e83b3e;
+  color: #fff;
+  text-decoration: none;
+  width: 130px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.apply-now-section .calculation-rate-right .calculate-form a:hover::after {
+  width: 100%;
+}
+
+.apply-now-section .calculation-rate-right .calculate-form a::after {
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  background: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  z-index: -1;
+}
+
+.call-to-action .call-to-action-bg {
+  background: #e83b3e;
+  color: #fff;
+  padding: 60px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+.call-to-action .call-to-action-bg .call-to-action-text h2 {
+  font-size: 35px;
+  font-weight: 400;
+  border-right: 1px solid #ddd;
+}
+
+.call-to-action .call-to-action-bg .call-to-action-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.call-to-action .call-to-action-bg .call-to-action-phone span {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  color: #e83b3e;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 60px;
+  text-align: center;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.call-to-action .call-to-action-bg .call-to-action-phone a {
+  display: inline-block;
+  font-size: 35px;
+  color: #fff;
+}
+
+.our-company-value .our-company-value-text h2 {
+  font-weight: bold;
+}
+
+.our-company-value .our-company-value-text .value-item {
+  margin-bottom: 10px;
+}
+
+.our-company-value .our-company-value-text .value-item .value-icon {
+  color: #e83b3e;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.our-company-value .our-company-value-text .value-item .under-text h4 {
+  font-weight: bold;
+}
+
+.our-company-value .our-company-value-pic {
+  width: 550px;
+  height: 450px;
+}
+
+.our-company-value .our-company-value-pic img {
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+
+.animation-pic .animation {
+  position: relative;
+}
+
+.animation-pic .animation .image {
+  width: 100%;
+  height: 100%;
+}
+
+.animation-pic .animation .blank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  padding-top: 350px;
+  -webkit-animation-name: mili;
+          animation-name: mili;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes mili {
+  0%, 30% {
+    background: rgba(112, 5, 5, 0.8);
+  }
+  50% {
+    background: rgba(54, 30, 161, 0.8);
+  }
+}
+
+@keyframes mili {
+  0%, 30% {
+    background: rgba(112, 5, 5, 0.8);
+  }
+  50% {
+    background: rgba(54, 30, 161, 0.8);
+  }
+}
+
+.pogress-bar .pogress-bar-item {
+  background-color: #ddd;
+}
+
+.pogress-bar .pogress-bar-item ul {
+  list-style: none;
+}
+
+.pogress-bar .pogress-bar-item ul li {
+  margin: 40px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  position: relative;
+}
+
+.pogress-bar .pogress-bar-item ul li.Html::after {
+  -webkit-animation-name: fardin;
+          animation-name: fardin;
+}
+
+@-webkit-keyframes fardin {
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes fardin {
+  to {
+    width: 50%;
+  }
+}
+
+.pogress-bar .pogress-bar-item ul li.Css::after {
+  -webkit-animation-name: far;
+          animation-name: far;
+}
+
+@-webkit-keyframes far {
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes far {
+  to {
+    width: 80%;
+  }
+}
+
+.pogress-bar .pogress-bar-item ul li.Java::after {
+  -webkit-animation-name: farhan;
+          animation-name: farhan;
+}
+
+@-webkit-keyframes farhan {
+  to {
+    width: 30%;
+  }
+}
+
+@keyframes farhan {
+  to {
+    width: 30%;
+  }
+}
+
+.pogress-bar .pogress-bar-item ul li.Bootsrap::after {
+  -webkit-animation-name: farha;
+          animation-name: farha;
+}
+
+@-webkit-keyframes farha {
+  to {
+    width: 60%;
+  }
+}
+
+@keyframes farha {
+  to {
+    width: 60%;
+  }
+}
+
+.pogress-bar .pogress-bar-item ul li.Php::after {
+  -webkit-animation-name: farh;
+          animation-name: farh;
+}
+
+@-webkit-keyframes farh {
+  to {
+    width: 40%;
+  }
+}
+
+@keyframes farh {
+  to {
+    width: 40%;
+  }
+}
+
+.pogress-bar .pogress-bar-item ul li::before {
+  content: "";
+  position: absolute;
+  width: 900px;
+  height: 30px;
+  background: #e97552;
+  top: calc(100% + 5px);
+  border-radius: 1000px;
+}
+
+.pogress-bar .pogress-bar-item ul li::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 30px;
+  background: #6b29a1;
+  top: calc(100% + 5px);
+  left: 0;
+  border-radius: 1000px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+/*# sourceMappingURL=style.css.map */
